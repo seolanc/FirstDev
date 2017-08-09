@@ -5,32 +5,38 @@
     <title>Document</title>
 </head>
 <body>
-    <figure class="main-menu">
-        <img src="" alt="logo">
-        <nav>
-            <ul>
-                <li>
-                     <a href="">Информация</a>     
-                </li>
-                <li>
-                    <a href="">Новости</a>
-                </li>
-                <li>
-                    <a href="">Прайс-лист</a>
-                </li>
-                <li>
-                    <a href="">Магазин</a>
-                </li>
-                <li>
-                    <a href="">Контакты</a>
-                </li>
-            </ul>
-            <a href="">Вход</a>
-        </nav>
-    </figure>
-    <main>
-        <section class="content">
-            <h2>Средства для ухода</h2>
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <img src="" alt="logo" width="300" height="300">
+            </div>
+            <nav class="main-navigation">
+                <ul>
+                    <li>
+                        <a href="">Информация</a>     
+                    </li>
+                    <li>
+                        <a href="">Новости</a>
+                    </li>
+                    <li>
+                        <a href="">Прайс-лист</a>
+                    </li>
+                    <li>
+                        <a href="">Магазин</a>
+                    </li>
+                    <li>
+                        <a href="">Контакты</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="user-block">
+                <a class="login" href="">Вход</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <div class="mini-navigation">
+            <b>Средства для ухода</b>
             <nav>
                 <ul>
                     <li>
@@ -44,10 +50,11 @@
                     </li>
                 </ul>
             </nav>
-            <div class="main-container">
-                <div class="container-left">
+        </div>
+        <div class="main-container">
+            <div class="container-left">
                     <div class="manufacture">
-                        <form action="">
+                        <form  action="">
                             <b>
                                 Производители
                             </b>
@@ -72,7 +79,8 @@
                                 </li>
                             </ul>
                         </form>
-                        <div class="goods-groupe">
+                    </div>
+                    <div class="goods-groupe">    
                         <form action="">
                             <b>
                                 Группы товаров
@@ -90,14 +98,14 @@
                             </ul>
                             <button class="button"><a href="">Показать</a></button>
                         </form>
-                    </div>
+                    </div>    
 
-                </div>
-                <div class="conteiner-right">
+            </div>
+            <div class="conteiner-right">
                     <div class="product-card">
                         <ul>
                             <li>
-                                <a href=""><img src="" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>>
+                                <a href=""><img src="" width="200" height="300" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
                             </li>
                             <li>
                                 <p>Набор для путешествий BAXTER OF CALIFORNIA</p>
@@ -107,17 +115,107 @@
                                 <button class="card-button">Купить</button>
                             </li>
                         </ul>
-
                     </div>
-
-                </div>
-
-            </div>
-        </section>
-
+                    <div class="product-card">
+                        <ul>
+                            <li>
+                                <a href=""><img src="" width="200" height="300" alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA"></a>
+                            </li>
+                            <li>
+                                <p>Увлажняющий кондиционер BAXTER OF CALIFORNIA</p>
+                            </li>
+                            <li>
+                                <b>750</b>
+                                <button class="card-button">Купить</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-card">
+                        <ul>
+                            <li>
+                                <a href=""><img src="" width="200" height="300" alt="Гель для волос SUAVECITO"></a>
+                            </li>
+                            <li>
+                                <p>Гель для волос SUAVECITO</p>
+                            </li>
+                            <li>
+                                <b>290</b>
+                                <button class="card-button">Купить</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-card">
+                        <ul>
+                            <li>
+                                <a href=""><img src="" width="200" height="300" alt="Глина для укладки волос AMERICAN CREW"></a>
+                            </li>
+                            <li>
+                                <p>Глина для укладки волос AMERICAN CREW</p>
+                            </li>
+                            <li>
+                                <b>500</b>
+                                <button class="card-button">Купить</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-card">
+                        <ul>
+                            <li>
+                                <a href=""><img src="" width="200" height="300" alt="Гель для волос AMERICAN CREW"></a>
+                            </li>
+                            <li>
+                                <p>Гель для волос AMERICAN CREW</p>
+                            </li>
+                            <li>
+                                <b>300</b>
+                                <button class="card-button">Купить</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="product-card">
+                        <ul>
+                            <li>
+                                <a href=""><img src="" width="200" height="300" alt="Набор для бритья BAXTER OF CALIFORNIA"></a>
+                            </li>
+                            <li>
+                                <p>Набор для бритья BAXTER OF CALIFORNIA</p>
+                            </li>
+                            <li>
+                                <b>3900</b>
+                                <button class="card-button">Купить</button>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="select-pages">
+                        <a href="">1</a>
+                        <a href="">2</a>
+                        <a href="">3</a>
+                        <a href="">4</a>
+                        <a href="">5</a>
+                    </div>
+            </div>                
+        </div>
     </main>
     <footer>
-        <div></div>
+        <div class="container">
+            <section class="footer-contacts">
+                Бапбершоп Бородинский<br>
+                Адресс: г. Сфнкт-Петербург, Б.Конюшенная 19/8<br>
+                <a href="">Как нас найти</a><br>
+                Тел. +7-812-666-02-66
+            </section>
+            <section class="footer-social">
+                Давайте дружить!<br>
+                <a class="social-btn social-btn-vk" href="">Вконтакте</a>
+                <a class="social-btn social-btn-fb" href="">Фейсбук</a>
+                <a class="social-btn social-btn-inst" href="">Инстаграм</a>
+            </section>
+            <section class="copyright">
+                <p>Разработано</p>
+                <a href="">Кем-то</a>
+            </section>
+
+        </div>
     </footer>
 </body>
 </html>
