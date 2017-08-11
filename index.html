@@ -8,7 +8,7 @@
     <header class="main-header">
         <div class="container">
             <div class="logo">
-                <img src="" alt="logo" width="300" height="300">
+                <a href=""><img src="" alt="logo" width="300" height="300"></a>
             </div>
             <nav class="main-navigation">
                 <ul>
@@ -34,164 +34,120 @@
             </div>
         </div>
     </header>
-    <main class="container">
-        <div class="mini-navigation">
-            <b>Средства для ухода</b>
+    <main class="main-page">
+        <div class="breadcrumbs">
+            <h1>Средства для ухода</h1>
             <nav>
                 <ul>
                     <li>
-                        <a href="">Главная</a>
+                        <a class="bc-item" href="">Главная</a>
                     </li>
                     <li>
-                        <a href="">Магазин</a>
+                        <a class="bc-item" href="">Магазин</a>
                     </li>
                     <li>
-                        <a href="">Средства для ухода</a>
+                        <a class="bc-item" href="">Средства для ухода</a>
                     </li>
                 </ul>
             </nav>
         </div>
         <div class="main-container">
             <div class="container-left">
-                    <div class="manufacture">
+                    <div class="filter">
                         <form  action="">
-                            <b>
+                             <h2>
                                 Производители
-                            </b>
-                            <ul>
-                                <li>
-                                    <input type="checkbox"><a href="">BAXTER OF CALIFORNIA</a></input>
-                                </li>
-                                <li>
-                                    <input type="checkbox"><a href="">MR NATTY</a></input>
-                                </li>
-                                <li>
-                                    <input type="checkbox"><a href="">SUAVECITO</a></input>
-                                </li>
-                                <li>
-                                    <input type="checkbox"><a href="">MALIN+GOETZ</a></input>
-                                </li>
-                                <li>
-                                    <input type="checkbox"><a href="">MURRAY'S</a></input>
-                                </li>
-                                <li>
-                                    <input type="checkbox"><a href="">AMERICAN CREW</a></input>
-                                </li>
-                            </ul>
+                            </h2>
+                                <div class="check-groupe">
+                                    <input type="checkbox" id="check1">
+                                    <label for="check1">BAXTER OF CALIFORNIA</label>
+                                </div>
+                                <div class="check-groupe">
+                                    <input type="checkbox" id="check2">
+                                    <label for="check1">MR NATTY</label>
+                                </div>
+                                <div class="check-groupe">
+                                    <input type="checkbox" id="check3">
+                                    <label for="check1">SUAVECITO</label>
+                                </div>
+                                <div class="check-groupe">
+                                    <input type="checkbox" id="check4">
+                                    <label for="check1">MALIN+GOETZ</label>
+                                </div>
+                                <div class="check-groupe">
+                                    <input type="checkbox" id="check5">
+                                    <label for="check1">MURRAY'S</label>
+                                </div>
+                                <div class="check-groupe">
+                                    <input type="checkbox" id="check6">
+                                    <label for="check1">AMERICAN CREW</label>
+                                </div>
+                            <h2>
+                                Группы товаров:
+                            </h2>
+                                <div class="check-groupe">
+                                    <input type="radio" id="rad1">
+                                    <label for="check1">Бритвенные принадлежности</label>
+                                </div>
+                                <div class="check-groupe">
+                                    <input type="radio" id="rad2">
+                                    <label for="check1">Средства для ухода</label>
+                                </div>
+                                <div class="check-groupe">
+                                    <input type="radio" id="rad3">
+                                    <label for="check1">Аксессуары</label>
+                                </div>
+                            <button type="submit">Показать</button>
                         </form>
                     </div>
-                    <div class="goods-groupe">    
-                        <form action="">
-                            <b>
-                                Группы товаров
-                            </b>
-                            <ul>
-                                <li>
-                                    <input type="radio"><a href="">Бритвенные принадлежности</a></input>
-                                </li>
-                                <li>
-                                    <input type="radio"><a href="">Средства для ухода</a></input>
-                                </li>
-                                <li>
-                                    <input type="radio"><a href="">Акссусуары</a></input>
-                                </li>
-                            </ul>
-                            <button class="button"><a href="">Показать</a></button>
-                        </form>
-                    </div>    
+                   
 
             </div>
             <div class="conteiner-right">
-                    <div class="product-card">
-                        <ul>
-                            <li>
-                                <a href=""><img src="" width="200" height="300" alt="Набор для путешествий BAXTER OF CALIFORNIA"></a>
-                            </li>
-                            <li>
-                                <p>Набор для путешествий BAXTER OF CALIFORNIA</p>
-                            </li>
-                            <li>
-                                <b>2900</b>
-                                <button class="card-button">Купить</button>
-                            </li>
-                        </ul>
+                    <div class="catalog-item">
+                        <img src="" width="200" height="300" alt="Набор для путешествий BAXTER OF CALIFORNIA">
+                        <h3>Набор для путешествий BAXTER OF CALIFORNIA</h3>
+                        <span>2900</span>
+                        <a href="">Купить</a>
                     </div>
-                    <div class="product-card">
-                        <ul>
-                            <li>
-                                <a href=""><img src="" width="200" height="300" alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA"></a>
-                            </li>
-                            <li>
-                                <p>Увлажняющий кондиционер BAXTER OF CALIFORNIA</p>
-                            </li>
-                            <li>
-                                <b>750</b>
-                                <button class="card-button">Купить</button>
-                            </li>
-                        </ul>
+                     <div class="catalog-item">
+                        <img src="" width="200" height="300" alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA">
+                        <h3>Увлажняющий кондиционер BAXTER OF CALIFORNIA</h3>
+                        <span>750</span>
+                        <a href="">Купить</a>
                     </div>
-                    <div class="product-card">
-                        <ul>
-                            <li>
-                                <a href=""><img src="" width="200" height="300" alt="Гель для волос SUAVECITO"></a>
-                            </li>
-                            <li>
-                                <p>Гель для волос SUAVECITO</p>
-                            </li>
-                            <li>
-                                <b>290</b>
-                                <button class="card-button">Купить</button>
-                            </li>
-                        </ul>
+                    <div class="catalog-item">
+                        <img src="" width="200" height="300" alt="Гель для волос SUAVECITO">
+                        <h3>Гель для волос SUAVECITO</h3>
+                        <span>290</span>
+                        <a href="">Купить</a>
                     </div>
-                    <div class="product-card">
-                        <ul>
-                            <li>
-                                <a href=""><img src="" width="200" height="300" alt="Глина для укладки волос AMERICAN CREW"></a>
-                            </li>
-                            <li>
-                                <p>Глина для укладки волос AMERICAN CREW</p>
-                            </li>
-                            <li>
-                                <b>500</b>
-                                <button class="card-button">Купить</button>
-                            </li>
-                        </ul>
+                    <div class="catalog-item">
+                        <img src="" width="200" height="300" alt="Глина для укладки волос AMERICAN CREW">
+                        <h3>Глина для укладки волос AMERICAN CREW</h3>
+                        <span>500</span>
+                        <a href="">Купить</a>
                     </div>
-                    <div class="product-card">
-                        <ul>
-                            <li>
-                                <a href=""><img src="" width="200" height="300" alt="Гель для волос AMERICAN CREW"></a>
-                            </li>
-                            <li>
-                                <p>Гель для волос AMERICAN CREW</p>
-                            </li>
-                            <li>
-                                <b>300</b>
-                                <button class="card-button">Купить</button>
-                            </li>
-                        </ul>
+                    <div class="catalog-item">
+                        <img src="" width="200" height="300" alt="Гель для волос AMERICAN CREW">
+                        <h3>Гель для волос AMERICAN CREW</h3>
+                        <span>300</span>
+                        <a href="">Купить</a>
                     </div>
-                    <div class="product-card">
-                        <ul>
-                            <li>
-                                <a href=""><img src="" width="200" height="300" alt="Набор для бритья BAXTER OF CALIFORNIA"></a>
-                            </li>
-                            <li>
-                                <p>Набор для бритья BAXTER OF CALIFORNIA</p>
-                            </li>
-                            <li>
-                                <b>3900</b>
-                                <button class="card-button">Купить</button>
-                            </li>
-                        </ul>
+                    <div class="catalog-item">
+                        <img src="" width="200" height="300" alt="Набор для бритья BAXTER OF CALIFORNIA">
+                        <h3>Набор для бритья BAXTER OF CALIFORNIA</h3>
+                        <span>3900</span>
+                        <a href="">Купить</a>
                     </div>
-                    <div class="select-pages">
-                        <a href="">1</a>
-                        <a href="">2</a>
-                        <a href="">3</a>
-                        <a href="">4</a>
-                        <a href="">5</a>
+                    <div class="paginator">
+                        <ul>
+                            <li><a class="page" href="">1</a></li>
+                            <li><a class="active-page" href="">2</a></li>
+                            <li><a class="page" href="">3</a></li>
+                            <li><a class="page" href="">4</a></li>
+                            <li><a class="page" href="">5</a></li>
+                        </ul>
                     </div>
             </div>                
         </div>
